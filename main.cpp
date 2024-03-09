@@ -16,5 +16,14 @@ int main() {
 		i++;
 	} while (i <= end);
 	cout << endl;
+
+	int i = 0;
+
+	cout << "\n" << i << endl;
+
+	while (i < 500)
+		cout << ++i << endl;
+
 	return 0;
+
 }
